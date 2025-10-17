@@ -43,6 +43,9 @@ export const translations = {
     anandSahibSubtitle: "ਗੁਰੂ ਅਮਰ ਦਾਸ ਜੀ ਦੀ ਬਾਣੀ",
     rehras: "ਰਹਿਰਾਸ",
     rehrasSubtitle: "ਸੰਧਿਆ ਦੀ ਬਾਣੀ",
+    rehrasSahib: "ਰਹਿਰਾਸ ਸਾਹਿਬ",
+    rehrasSahibSubtitle: "ਸੰਧਿਆ ਦੀ ਬਾਣੀ",
+    backToRehrasSahib: "ਰਹਿਰਾਸ ਸਾਹਿਬ ਵਾਪਸ",
     sohilaSahib: "ਸੋਹਿਲਾ ਸਾਹਿਬ",
     sohilaSahibSubtitle: "ਰਾਤ ਦੀ ਬਾਣੀ",
     
@@ -114,6 +117,9 @@ export const translations = {
     anandSahibSubtitle: "Composition by Guru Amar Das Ji",
     rehras: "Rehras",
     rehrasSubtitle: "Evening prayer",
+    rehrasSahib: "Rehras Sahib",
+    rehrasSahibSubtitle: "Evening prayer",
+    backToRehrasSahib: "Back to Rehras Sahib",
     sohilaSahib: "Sohila Sahib",
     sohilaSahibSubtitle: "Night prayer",
     

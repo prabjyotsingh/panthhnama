@@ -1,20 +1,20 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { useTranslation } from '../context/TranslationContext.jsx';
+import logo from '../images/logo.jpeg';
 
 const Header = () => {
   const { t, toggleLanguage } = useTranslation();
   return (
     <header className="bg-gray-200 w-full">
       {/* Top Navigation Bar */}
-      <div className="bg-gray-200 px-4 py-3 w-full">
+      <div className="bg-gray-200 px-4 py-4 w-full">
         <div className="w-full flex items-center justify-between">
           {/* Left Side - Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-virsa-red rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-sm">V</span>
-            </div>
-            <span className="text-virsa-dark font-semibold text-xl">Virsa</span>
+            {/* Logo imported from src/images */}
+            <img src={logo} alt="Virsa Channel" className="w-16 h-16 object-contain rounded-full" />
+            <span className="text-virsa-dark font-semibold text-2xl">Virsa</span>
           </Link>
 
           {/* Center Navigation */}
@@ -29,7 +29,7 @@ const Header = () => {
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <span>Nitnem</span>
+              <span>{t('nitnem')}</span>
             </NavLink>
             <button className="text-virsa-gray hover:text-virsa-dark flex items-center space-x-2" type="button">
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">

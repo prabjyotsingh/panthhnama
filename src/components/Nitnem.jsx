@@ -2294,7 +2294,7 @@ const Nitnem = () => {
     } else if (showRehrasSahib) {
       currentContent = rehrasSahibContent;
       currentTitle = t('rehrasSahib');
-      backText = 'Back to Rehras Sahib';
+      backText = t('backToRehrasSahib');
       currentAudioType = 'rehras';
     } else if (showSohilaSahib) {
       currentContent = sohilaSahibContent;
